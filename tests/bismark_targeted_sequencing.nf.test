@@ -44,7 +44,7 @@ nextflow_pipeline {
             params {
                 outdir                      = "$outputDir"
                 collecthsmetrics            = true
-                target_regions_file         = "https://raw.githubusercontent.com/dcarrillox/test-datasets/refs/heads/targeted_methylseq/reference/genome_target_regions.bed"
+                target_regions_file         = "https://github.com/nf-core/test-datasets/raw/methylseq/reference/genome_target_regions.bed"
             }
         }
 
